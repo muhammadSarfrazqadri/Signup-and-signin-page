@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
   }
-/*   
+  
   .container {
     background: white;
     padding: 30px 20px;
@@ -65,7 +65,7 @@
   .error {
     color: red;
     font-size: 14px;
-  } */
+  }
   .landing-page {
     padding-top: 5em;
     width: 100%;
@@ -85,10 +85,12 @@
   }
   
   .inline-pic {
-    border-radius: 16px;
+    padding: 30px 30px;
+    border-radius: 19px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     width: 100%;
-    background: #fff;
+    margin-top: 3em;
+    background: #ff6363;
     object-position: center;
     object-fit: cover;
     box-sizing: border-box;

@@ -1,83 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIN/SignUp</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login System</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<!-- 
-  <div class="container">
-    
-    <div class="toggle-buttons">
-      <button onclick="signInPage()" id="show-login">Sign In</button>
-      <button onclick="signUpPage()" id="show-signup">Sign Up</button>
-    </div>
-    
-      Sign In Form 
-    <div id="login-form" class="form-box">
-      <h2>Sign In</h2>
-      <input type="text" id="login-username" placeholder="Username" />
-      <input type="password" id="login-password" placeholder="Password" />
-      <button onclick="login()">Login</button>
-      <p id="login-error" class="error"></p>
-    </div>
 
-     Sign Up Form 
-    <div id="signup-form" class="form-box hidden">
-      <h2>Sign Up</h2>
-      <input type="text" id="signup-username" placeholder="Username" />
-      <input type="password" id="signup-password" placeholder="Password" />
-      <button onclick="register()">Register</button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignIN/SignUp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div class="container" id="container">
+
+      <div class="toggle-buttons">
+        <button onclick="signInPage()" id="show-login">Sign In</button>
+        <button onclick="signUpPage()" id="show-signup">Sign Up</button>
+      </div>
+
+      <div id="login-form" class="form-box">
+        <h2>Sign In</h2>
+        <input type="text" id="login-username" placeholder="Username" />
+        <input type="password" id="login-password" placeholder="Password" />
+        <button onclick="login()">Login</button>
+        <p id="login-error" class="error"></p>
+      </div>
+
+      <div id="signup-form" class="form-box hidden">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-username" placeholder="Username" />
+        <input type="password" id="signup-password" placeholder="Password" />
+        <button onclick="register()">Register</button>
+      </div>
+
+
     </div>
-     
-     
-    </div> -->
 
     <!-- Romantic Landing Page -->
     <div id="welcome" class="hidden landing-page">
+      <h2 class="romantic-heading">Merii Piaaaaaaaaaaaaaaaaaaaaariiiii Siiiiiiii ShehZaaaaaaaaadiiiii ❤ Meriiiiiiiii Jaaaaaaaaaaaaaaaaaaaaaaaaaaaaaan😘 ............. Meda Sohna Shuna 😉..... Meda Dibar 💕</h2>
       <img src="asserts/4.jpg" class="main-banner" alt="Main Banner" />
-    
+
       <h2 class="romantic-heading">Meri Shehzaadi Khadija</h2>
-      <p class="para">Tum meri zindagi ki subha bhi ho, aur shaam bhi... tum meri muskurahat ho, meri har dua ka hasil ho.</p>
-    
+      <p class="para">Tum meri zindagi ki subha bhi ho, aur shaam bhi... tum meri muskurahat ho, meri har dua ka hasil
+        ho.</p>
+
       <img src="asserts/1.jpg" class="inline-pic" alt="Khadija 1" />
-    
+
       <h2 class="romantic-heading">Meri Jaan</h2>
-      <p class="para">Is pic mein tumhari simplicity aur style dono alag hi level pe hain ✨. Cap tum pe itni suit kar rahi hai jaise tumhare liye hi bani ho 🧢. Tumhara chehra itna fresh aur natural lag raha hai ke dekhte reh jaaye banda 😘. Na zyada makeup, na pose — bas tum, waise hi jaise mujhe pasand ho ❤.</p>
-    
+      <p class="para">Tumhari aankhon mein basi hui masoomiyat aur chehre pe bikharay hue noor ka asar aisa hai ke dil
+        beqarar ho uthta hai. Tumhari ek muskurahat meri har thakan mita deti hai.</p>
+
       <img src="asserts/2.jpg" class="inline-pic" alt="Khadija 2" />
-    
-      <h2 class="romantic-heading">Meri Janeman </h2>
-      <p class="para"></p>
-    
-      <img src="/asserts/3.jpg" class="inline-pic" alt="Together" />
-    
+
+      <h2 class="romantic-heading">Meri Janeman</h2>
+      <p class="para">Is pic mein tumhari simplicity aur style dono alag hi level pe hain ✨. Cap tum pe itni suit kar
+        rahi hai jaise tumhare liye hi bani ho 🧢. Tumhara chehra itna fresh aur natural lag raha hai ke dekhte reh
+        jaaye banda 😘. Na zyada makeup, na pose — bas tum, waise hi jaise mujhe pasand ho ❤.</p>
+
+      <img src="asserts/3.jpg" class="inline-pic" alt="Khadija 3" />
+
+      <h2 class="romantic-heading">Meri Chandni</h2>
+      <p class="para">Tum meri raaton ka chaand ho, jo andheron mein bhi roshni phailata hai. Tumhara har pose meri
+        aankhon mein basa rehta hai, meri duaon ka hissa ban gaya hai.</p>
+
+      <img src="asserts/4.jpg" class="inline-pic" alt="Khadija 4" />
+
+      <h2 class="romantic-heading">Meri Dilruba</h2>
+      <p class="para">Tumhara har andaaz, har ada mujhe apni taraf kheenchta hai. Tumhari saari khamushiyan bhi itni
+        bolti hain ke main har lamha tum mein kho jata hoon.</p>
+
+      <img src="asserts/5.jpg" class="inline-pic" alt="Khadija 5" />
+
+      <h2 class="romantic-heading">Meri Rooh ki Saathi</h2>
+      <p class="para">Tum mere alfaazon mein nahi, mere jazbaat mein basi ho. Tum mera sukoon bhi ho aur meri bechaini
+        bhi. Tumhara hona mere hone ki sabse badi wajah hai.</p>
+
+      <img src="asserts/6.jpg" class="inline-pic" alt="Khadija 6" />
+
+      <h2 class="romantic-heading">Meri Saans</h2>
+      <p class="para">Main jab bhi apni aankhein band karta hoon, tumhara chehra meri rooh ko choo leta hai. Tum meri
+        duaon ka wo hissa ho jo kabhi adhoora nahi ho sakta.</p>
+
+      <img src="asserts/7.jpg" class="inline-pic" alt="Khadija 7" />
+
+      <h2 class="romantic-heading">Meri Hansi ka Raaz</h2>
+      <p class="para">Tumhari muskurahat meri duniya mein rang bhar deti hai. Tumhari ek nazar meri duniya ko roshan
+        karne ke liye kaafi hai.</p>
+
+      <img src="asserts/8.jpg" class="inline-pic" alt="Khadija 8" />
+
+      <h2 class="romantic-heading">Meri Duniya</h2>
+      <p class="para">Tum meri har khushi ka asal sabab ho. Tumhare bina meri duniya adhoori hai, aur tumhare saath sab
+        kuch mukammal lagta hai.</p>
+
+      <img src="asserts/9.jpg" class="inline-pic" alt="Khadija 9" />
+
+      <h2 class="romantic-heading">Meri Zindagi</h2>
+      <p class="para">Tumhara naam meri zindagi ke har safhay par likha hai. Tum meri kahani ka sabse khoobsurat, sabse
+        meetha hissa ho.</p>
+
+      <img src="asserts/10.jpg" class="inline-pic" alt="Khadija 10" />
+
+      <h2 class="romantic-heading">Meri Dua</h2>
+      <p class="para">Har dua mein sirf tumhara zikr hota hai. Tum meri ibadat ho, meri rehmat ho. Tumhare bina meri
+        zindagi adhoori lagti hai.</p>
+
+      <img src="asserts/11.jpeg" class="inline-pic" alt="Khadija 11" />
+
+      <h2 class="romantic-heading">Meri Tamanna</h2>
+      <p class="para">Tum wo tamanna ho jo har dua ke baad bhi adhuri lagti hai jab tak tum meri saath na ho. Tum meri
+        har khushi ki wajah ho, meri har aas ki manzil ho.</p>
+
+      <img src="asserts/12.jpeg" class="inline-pic" alt="Together" />
+
       <h2 class="romantic-heading">Shehzaadi ka Shehzada</h2>
-      <p class="para">Aur main... main to sirf tumhara hoon. Sirf tumhara. Bas tumhara.</p>
-    
+      <p class="para">Aur main... main to sirf tumhara hoon. Sirf tumhara. Bas tumhara. Tum meri rooh mein basi hui ek
+        dua ho jo har lamha mere saath rehti hai.</p>
+
       <audio id="love-audio" autoplay>
-        <source src="love.mp3" type="audio/mpeg">
-        Your browser does not support the audio.
+        <source src="asserts/audio.mp3" type="audio/mpeg">
       </audio>
     </div>
 
-  
 
-  <script src="index.js"></script>
-</body>
-</html>
 
-    <script src="app.js"></script>
+    <script src="index.js"></script>
+  </body>
+
+  </html>
+
+  <script src="app.js"></script>
 </body>
+
 </html>

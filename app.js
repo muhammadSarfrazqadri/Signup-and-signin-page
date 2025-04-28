@@ -22,18 +22,3 @@ function register() {
   document.getElementById("signup-username").value = "";
   document.getElementById("signup-password").value = "";
 }
-
-function login() {
-  let userName = document.getElementById("login-username").value;
-  let password = document.getElementById("login-password").value;
-
-  if (users[userName] && users[userName] === password) {
-    document.getElementById('welcome').style.display = 'block'
-    document.getElementById('login-form').style.display = 'none'
-    document.getElementById('signup-form').style.display = 'none'
-    document.getElementById('container').style.display = 'none'
-    document.getElementById('love-audio').play()
-  } else {
-    document.getElementById("login-error").innerText = "Invalid Name Or Password";
-  }
-}
